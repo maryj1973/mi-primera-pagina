@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Mi primera pagina</title>
+    <style>
+        table,th,td{
+            border: 3px solid rgb(0, 225, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <table style="border:3px solid rgb(0, 255, 76) ;width: 400px;">
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>IKEA</th>
+        </tr>
+        <tr>
+            <td>Mesa</td>
+            <td>15,90</td>
+            <td>Vendida</td>
+        </tr>
+        <tr>
+            <td>Sillas</td>
+            <td>19,90</td>
+            <td>Solicitadas</td>
+        </tr>
+        <tr>
+            <td>Mueble</td>
+            <td>29,95</td>
+            <td>Agotado</td>
+        </tr>
+
+    </table>
+
+
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+    </ul>
+   
+    <ol>
+        <li value="100">Elemento 1 </li>
+        <li>Elemento 2 </li>
+        <li>
+            <ol>
+                <li styles="list-style-type: lower-roman">Elemento 2.1</li>
+                <li styles="list-style-type: lower-roman">Elemento 2.2</li>
+            </ol>
+        </li>
+    </ol>
+    <ul>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+    </ul>
+
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input value="Hola" type="text" id="nombre" name="nombre" placeholder="Maria feliz">
+        <br>
+        <label for="apellido">Nombre</label>
+        <input value="Que tal" type="text" id="apellido" name="apellido" placeholder="Maria triste">
+        <br>
+        <label for="comentario"></label>
+        <textarea name="comentario" id="comentario" cols="30" rows="10"
+            placeholder="Ingrese comentario">Defecto del text</textarea>
+        <br>
+        <button type="button">tipo boton</button>
+        <button type="reset">tipo rest</button>
+        <button type="submit">tipo submit</button>
+        <button><img src="descarga.jpeg"></button>
+        
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <hr>
+    <p>Estoy feliz</p>
+    <p>Estoy triste</p>
+    <!--Comentario-->
+    Este texto es <span style="color:blue"> más largo</span> <br>
+    <br>
+    <a target="_blank" href="https://www.lalin.gal">Ir al concello de lalin</a> <br>
+    <br>
+    <img src="images.jpeg" width="150">
+
+</body>
+
+</html>
